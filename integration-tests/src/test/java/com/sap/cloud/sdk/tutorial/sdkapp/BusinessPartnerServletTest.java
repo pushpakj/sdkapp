@@ -36,7 +36,7 @@ public class BusinessPartnerServletTest {
     @BeforeClass
     public static void beforeClass() {
         mockUtil.mockDefaults();
-        //mockUtil.mockErpDestination();
+        mockUtil.mockErpDestination();
     }
 
     @Before
